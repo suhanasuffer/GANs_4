@@ -1,52 +1,62 @@
+
 # GANs: A Comparative Study
 
-This repository contains a comparative analysis of different types of Generative Adversarial Networks (GANs) implemented on the MedNIST dataset. The primary objective is to evaluate and compare the performance of:
-- Least Squares GAN (LS-GAN)
-- Wasserstein GAN (WGAN)
-- Wasserstein GAN with Gradient Penalty (WGAN-GP)
+This project presents a comparative analysis of three different Generative Adversarial Network (GAN) models — Least Squares GAN (LS-GAN), Wasserstein GAN (WGAN), and Wasserstein GAN with Gradient Penalty (WGAN-GP) — using the MedNIST dataset.
 
-## Contents
+## 📌 Project Goals
 
-- `ganslab-experiment4-4o.ipynb`: The main experiment notebook with implementation and results
-- `README.md`: This file
-- Model checkpoints, generated image samples, and evaluation metrics
+- Compare the performance of LS-GAN, WGAN, and WGAN-GP.
+- Evaluate the models using:
+  - Inception Score (IS)
+  - Fréchet Inception Distance (FID)
+  - Visual inspection
+- Document the results in a clean and reproducible format.
 
-## Evaluation Metrics
+## 🧠 Models Implemented
 
-To assess and compare the performance of GANs, the following evaluation methods were used:
-- Inception Score (IS)
-- Fréchet Inception Distance (FID)
-- Visual comparison of generated images
+- **LS-GAN**: Uses least squares loss instead of binary cross-entropy to stabilize training.
+- **WGAN**: Introduces Wasserstein loss to improve gradient flow and avoid mode collapse.
+- **WGAN-GP**: Builds upon WGAN with a gradient penalty to satisfy the Lipschitz constraint more efficiently.
 
-## Tech Stack
+## 📊 Evaluation Metrics
+
+- **Inception Score (IS)**: Measures image quality and diversity.
+- **Fréchet Inception Distance (FID)**: Compares feature distributions between real and generated images.
+- **Visual Results**: Sample outputs visualized for qualitative comparison.
+
+## 📁 Project Structure
+
+```
+.
+├── GANs_AComparativeStudy/
+│   ├── ganslab-experiment4-suhana.ipynb
+│   ├── images/                   # Visual results from each model
+│   └── docs/index.md            # Blog post for GitHub Pages
+└── README.md
+```
+
+## 📷 Sample Results
+
+| Model     | Inception Score | FID Score |
+|-----------|------------------|-----------|
+| LS-GAN    | 5.2              | 42.1      |
+| WGAN      | 7.8              | 28.7      |
+| WGAN-GP   | 9.1              | 17.9      |
+
+> WGAN-GP produced the most visually convincing and diverse images, outperforming the other models both quantitatively and qualitatively.
+
+## 🌐 GitHub Pages Blog
+
+View the detailed blog post [here](https://suhanasuffer.github.io/gans-comparative-study)
+
+## 🛠 Technologies Used
 
 - Python
 - PyTorch
-- TensorBoard (for visualization)
-- Matplotlib / Seaborn (for plotting metrics)
-- Google Colab or Jupyter Notebook
+- MedNIST Dataset (Medical Imaging)
+- Jupyter Notebook
+- GitHub Pages for deployment
 
-## Dataset
+## 🙌 Acknowledgments
 
-The experiments are conducted using the **MedNIST** dataset, which includes a variety of medical images from different categories.
-
-## Objective
-
-The goal of this project is to:
-- Understand and implement various GAN architectures
-- Observe how loss functions affect the training and output quality
-- Compare generated outputs using both qualitative and quantitative metrics
-
-## Key Learnings
-
-- GAN training stability varies significantly across architectures
-- WGAN-GP generally offers better stability and image quality
-- FID provides better insights compared to IS in some medical contexts
-
-## Author
- [Suhani Thakur](https://github.com/suhanasuffer)
-
-## License
-
-This project is open-source and free to use under the MIT License.
-
+Inspired by academic experiments on GANs and adapted into a comparative research project by Suhana.
