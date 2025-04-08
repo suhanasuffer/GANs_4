@@ -24,17 +24,6 @@ This project presents a comparative analysis of three different Generative Adver
 - **Fréchet Inception Distance (FID)**: Compares feature distributions between real and generated images.
 - **Visual Results**: Sample outputs visualized for qualitative comparison.
 
-## 📁 Project Structure
-
-```
-.
-├── GANs_AComparativeStudy/
-│   ├── ganslab-experiment4-suhana.ipynb
-│   ├── images/                   # Visual results from each model
-│   └── docs/index.md            # Blog post for GitHub Pages
-└── README.md
-```
-
 ## 📷 Sample Results
 
 | Model     | Inception Score | FID Score |
@@ -57,6 +46,3 @@ View the detailed blog post [here](https://suhanasuffer.github.io/gans-comparati
 - Jupyter Notebook
 - GitHub Pages for deployment
 
-## 🙌 Acknowledgments
-
-Inspired by academic experiments on GANs and adapted into a comparative research project by Suhana.
