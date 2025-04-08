@@ -96,7 +96,7 @@ I plan to:
 
 Hi! I’m Suhani, an AI and deep learning enthusiast with a passion for image generation and creative applications of machine learning. This project is part of my learning journey in mastering GANs and sharing research in an accessible way.
 
-> 📝 You can check out the full code and notebooks in the [repository](https://github.com/suhanasuffer/GANs_4)
+> 📝 You can check out the full code and notebooks in the [repository]([https://github.com/suhanasuffer/GANs_4)](https://github.com/suhanasuffer/GANs_4)
 
 ---
 
