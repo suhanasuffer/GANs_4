@@ -36,7 +36,7 @@ This project presents a comparative analysis of three different Generative Adver
 
 ## 🌐 GitHub Pages Blog
 
-View the detailed blog post [here](https://suhanasuffer.github.io/gans-comparative-study)
+View the detailed blog post [here]([https://suhanasuffer.github.io/gans-comparative-study](https://suhanasuffer.github.io/GANs_4/))
 
 ## 🛠 Technologies Used
 
