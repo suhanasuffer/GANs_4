@@ -64,14 +64,6 @@ Each model was trained on the MedNIST dataset under the same conditions (number 
 
 ---
 
-## 🖼️ Visual Samples
-
-You can view sample outputs from each model in the [`images/`](../images) folder of the repo.
-
-*(Add `.png` or `.jpg` files of outputs for better blog experience)*
-
----
-
 ## 🧾 Summary & Key Takeaways
 
 - **WGAN-GP** is the most robust and effective model among the three tested.
@@ -102,9 +94,9 @@ I plan to:
 
 ## 👩‍💻 About Me
 
-Hi! I’m Suhana, an AI and deep learning enthusiast with a passion for image generation and creative applications of machine learning. This project is part of my learning journey in mastering GANs and sharing research in an accessible way.
+Hi! I’m Suhani, an AI and deep learning enthusiast with a passion for image generation and creative applications of machine learning. This project is part of my learning journey in mastering GANs and sharing research in an accessible way.
 
-> 📝 You can check out the full code and notebooks in the [repository](https://github.com/suhanasuffer/gans-comparative-study)
+> 📝 You can check out the full code and notebooks in the [repository](https://github.com/suhanasuffer/GANs_4)
 
 ---
 
