@@ -48,17 +48,11 @@ WGAN-GP outperformed the others in terms of both quality and diversity of images
 
 ---
 
-## 🖼️ Visual Samples
-
-> *(Add generated image samples in the `docs/images` folder and embed them here)*
-
----
-
 ## 🚀 Conclusion
 
 This comparative study demonstrates that WGAN-GP provides the most stable training and best output quality among the tested models. More advanced GAN architectures can be explored in the future to further enhance results on complex datasets.
 
 ---
 
-*Project by [Suhana](https://github.com/suhanasuffer)*  
+*Project by [Suhani](https://github.com/suhanasuffer)*  
 *Hosted via GitHub Pages*
